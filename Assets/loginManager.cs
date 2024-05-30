@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class loginManager : MonoBehaviour
 {
-    public string Contraseña;
+    public string Contraseña = "Pepe";
     public InputField Ingresar_Contraseña;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class loginManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
     public void ChequearContraseña()
     {
